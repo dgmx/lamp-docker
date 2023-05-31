@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS lamp_db;
-CREATE DATABASE lamp_db CHARSET utf8mb4;
-USE lamp_db;
+DROP DATABASE IF EXISTS lampdb;
+CREATE DATABASE lampdb CHARSET utf8mb4;
+USE lampdb;
 
 CREATE TABLE users (
   id int(11) NOT NULL auto_increment,
